@@ -253,12 +253,18 @@
         margin: 0 auto;
     }
 
-    .about-use__doctor--container .about-use__doctor--images img:first-child {
+    .about-use__doctor--container
+        .about-use__doctor--images
+        picture:first-child
+        img {
         height: 250px;
         width: 200px;
     }
 
-    .about-use__doctor--container .about-use__doctor--images img:last-child {
+    .about-use__doctor--container
+        .about-use__doctor--images
+        picture:last-child
+        img {
         width: 250px;
     }
 
