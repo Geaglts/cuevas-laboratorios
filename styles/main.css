@@ -1,10 +1,37 @@
+@font-face {
+    font-family: "roboto-regular";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "roboto-bold";
+    src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
     text-decoration: none;
     list-style: none;
+    font-family: "roboto-regular", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "roboto-bold", sans-serif;
+}
+
+h2 {
+    font-size: 32pt;
 }
 
 hr {
@@ -35,7 +62,7 @@ header nav {
 
 header nav ul li {
     text-align: center;
-    padding: 5px;
+    padding: 10px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +72,7 @@ header nav ul li {
 
 header nav ul li a {
     color: white;
-    font-weight: 700;
+    font-family: "roboto-bold", sans-serif;
 }
 
 /* MAIN */
@@ -154,7 +181,6 @@ main .main__services--container {
 }
 
 .services__article--container .article__services--info > h2 {
-    font-size: 22pt;
     margin-bottom: 10px;
     color: #333;
     text-align: center;
@@ -190,7 +216,7 @@ main .main__services--container {
     position: relative;
     color: white;
     text-align: center;
-    font-weight: 700;
+    font-family: "roboto-bold", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -227,7 +253,6 @@ main .main__how-find-us--container {
 }
 
 main .main__how-find-us--container h2 {
-    font-size: 18pt;
     text-align: center;
 }
 
@@ -240,6 +265,8 @@ main .main__how-find-us--container a {
     margin-bottom: 15px;
     color: inherit;
     font-size: 14pt;
+    color: #387dff;
+    font-family: "roboto-bold", sans-serif;
     border: 2px solid #387dff;
     border-radius: 4px;
     box-shadow: 1px 1px #387dff;
@@ -288,7 +315,7 @@ main .main__how-find-us--container iframe {
 .how-find-us__section--container .how-find-us__section--card p:first-child {
     margin-bottom: 5px;
     font-size: 14pt;
-    font-weight: 700;
+    font-family: "roboto-bold", sans-serif;
 }
 
 .how-find-us__section--card:nth-child(1) p > span > i {
@@ -321,7 +348,6 @@ main .main__about-us--container {
 }
 
 main .main__about-us--container .about-us__div--info h2 {
-    font-size: 18pt;
     margin-bottom: 5px;
     color: #387dff;
     text-align: center;
@@ -416,7 +442,7 @@ main .main__about-us--container .about-us__div--info p {
 }
 
 .about-use__doctor--info .doctor__info--desc p:first-child {
-    font-weight: 700;
+    font-family: "roboto-bold", sans-serif;
 }
 
 /* CONTACT US SECTION */
@@ -425,10 +451,6 @@ main .main__section--contact-us .section__contant-us--info-container {
     background-color: #387dff;
     color: white;
     padding: 20px;
-}
-
-.main__section--contact-us .section__contant-us--info-container h2 {
-    font-size: 18pt;
 }
 
 .main__section--contact-us .section__contant-us--info-container p {
@@ -449,7 +471,7 @@ main .main__section--contact-us .section__contant-us--form-container {
     display: block;
     margin: 10px auto;
     font-size: 13pt;
-    font-weight: 700;
+    font-family: "roboto-bold", sans-serif;
     color: #7a7a7a;
 }
 
@@ -503,7 +525,7 @@ footer .footer__section--top .top__section--right {
     display: flex;
     align-items: center;
     color: inherit;
-    font-weight: 700;
+    font-family: "roboto-bold", sans-serif;
 }
 
 .top__section--right a img {
