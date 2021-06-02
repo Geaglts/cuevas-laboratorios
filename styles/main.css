@@ -53,6 +53,12 @@ header {
     padding: 10px;
 }
 
+header a {
+    display: flex;
+    align-items: center;
+    height: 39px;
+}
+
 header img {
     margin-left: 5px;
     width: 195px;
@@ -63,14 +69,11 @@ header nav {
 }
 
 header nav ul li {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 3px;
 }
 
 header nav ul li a {
+    text-align: center;
     display: inline-block;
     width: 100%;
     color: white;
