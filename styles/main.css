@@ -64,16 +64,18 @@ header nav {
 
 header nav ul li {
     text-align: center;
-    padding: 10px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 3px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 header nav ul li a {
+    display: inline-block;
+    width: 100%;
     color: white;
+    padding: 10px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     font-family: "roboto-bold", sans-serif;
 }
 
