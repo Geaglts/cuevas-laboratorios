@@ -46,14 +46,14 @@ hr {
 
 /* HEADER */
 header {
-    background-color: #1d3157;
+    background-color: #1b3c58;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 10px;
 }
 
-header a {
+header > a {
     display: flex;
     align-items: center;
     height: 39px;
@@ -495,6 +495,20 @@ main .main__section--contact-us .section__contant-us--form-container {
     height: 40px;
     padding-left: 10px;
     font-size: 13pt;
+}
+
+.form-button {
+    display: block;
+    border: none;
+    background-color: #23ce6b;
+    font-size: 14pt;
+    font-family: "roboto-bold", sans-serif;
+    margin: 0 auto;
+    height: 35px;
+    width: 90px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
+    color: white;
+    border-radius: 4px;
 }
 
 /* FOOTER */
