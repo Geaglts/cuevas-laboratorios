@@ -558,3 +558,54 @@ footer .footer__section--bottom {
     padding: 10px 0;
     font-size: 11pt;
 }
+
+/* PRIVACY POLICY */
+.privacy__main--container {
+    padding: 20px;
+}
+
+.privacy__main--container .main__title--container {
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.privacy__main--container .main__title--container .main-title__h1--title {
+    text-align: center;
+    font-size: 28pt;
+    color: #1d3157;
+}
+
+.privacy__main--container .main__title--container a {
+    color: #fff;
+    font-size: 14pt;
+    background-color: #1d3157;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
+    margin-top: 0.7em;
+    font-family: "roboto-bold", sans-serif;
+}
+
+.privacy__main--container .main__title--container p {
+    color: #333;
+    margin-top: 0.5em;
+}
+
+.privacy__main--container > section {
+    margin-bottom: 1.7em;
+}
+
+.privacy__main--container > section > h2 {
+    font-size: 28pt;
+    color: #387dff;
+}
+
+.privacy__main--container > section > p {
+    font-size: 16pt;
+    margin-top: 5px;
+}

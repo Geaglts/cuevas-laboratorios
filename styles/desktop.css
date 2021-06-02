@@ -348,6 +348,43 @@
         color: white;
         font-size: 12pt;
     }
+
+    /* PRIVACY POLICY */
+    .privacy__main--container {
+        width: 60%;
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    .privacy__main--container .main__title--container {
+        margin-top: 2em;
+        align-items: flex-start;
+        border: none;
+    }
+
+    .privacy__main--container .main__title--container .main-title__h1--title {
+        text-align: left;
+    }
+
+    .privacy__main--container .main__title--container p {
+        text-align: left;
+        margin-bottom: 1em;
+    }
+
+    .privacy__main--container .main__title--container a:hover {
+        background-color: #2759b6;
+    }
+
+    .privacy__main--container > section {
+        margin-bottom: 3em;
+        border-top: 2px solid rgba(56, 125, 255, 0.5);
+        padding-top: 1em;
+    }
+
+    .privacy__main--container > section > h2 {
+        font-size: 26pt;
+        color: #387dff;
+    }
 }
 
 @media (min-width: 1125px) {
