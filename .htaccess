@@ -1,7 +1,7 @@
+
+<Files .htaccess>
 Order deny,allow
 Deny from all
-<Files ~ “.(xml|css|js|jpeg|png|gif|pdf|zip|rar)$”>
-Allow from all
 </Files>
 
 RewriteEngine on
