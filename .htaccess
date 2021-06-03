@@ -3,6 +3,10 @@ Order deny,allow
 Deny from all
 </Files>
 
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
