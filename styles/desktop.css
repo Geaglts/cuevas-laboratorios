@@ -350,6 +350,10 @@
         text-align: left;
     }
 
+    footer .footer__section--top .top__section--left a {
+        margin: 0;
+    }
+
     footer .footer__section--bottom p {
         color: white;
         font-size: 12pt;

@@ -23,6 +23,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #fff3f3;
+}
+
 h1,
 h2,
 h3,
@@ -617,4 +621,79 @@ footer .footer__section--bottom {
 .privacy__main--container > section > p {
     font-size: 16pt;
     margin-top: 5px;
+}
+
+/* BLOG */
+.Blog__main--container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.Blog__main--container .Blog__main--title-container {
+    margin-top: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 6);
+    padding-bottom: 1em;
+}
+
+.Blog__main--container .Blog__main--title-container h1 {
+    font-size: 32pt;
+    line-height: 1;
+    color: #387dff;
+    margin-bottom: 0.5em;
+}
+
+.Blog__main--container .Blog__main--title-container p {
+    font-size: 14pt;
+}
+
+/* POST */
+.Blog__main--posts-container {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.Blog__main--posts-container .Blog__posts--post {
+    height: 460px;
+    max-width: 360px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.Blog__main--posts-container .Blog__posts--post img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Blog__posts--post .Blog__post--intro {
+    padding: 1em;
+}
+
+.Blog__posts--post .Blog__post--intro > h2 {
+    font-size: 22pt;
+}
+
+.Blog__posts--post .Blog__post--intro > p {
+    font-size: 14pt;
+    margin: 10px 0;
+}
+
+.Blog__posts--post .Blog__post--intro > button {
+    background-color: #387dff;
+    border: none;
+    color: white;
+    padding: 0.4em 0.6em;
+    font-size: 14pt;
+    font-family: "Roboto-Bold", sans-serif;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
 }
