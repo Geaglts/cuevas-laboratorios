@@ -11,3 +11,7 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^https://laboratorioscuevas.com.mx/pages/blog.html[NC,OR]
+RewriteRule ^(.*)$ http://laboratorioscuevas.com.mx/blog/$1 [L,R=301,NC]
