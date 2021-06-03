@@ -40,6 +40,9 @@
             media="screen and (min-width: 800px)"
         />
         <link rel="canonical" href="https://laboratorioscuevas.com.mx" />
+
+        <!-- JS FILES -->
+        <script src="./js/index.js" defer></script>
     </head>
     <body>
         <!-- Google Tag Manager (noscript) -->
@@ -211,13 +214,15 @@
                     <div class="article__services--info">
                         <h2>Análisis para la Covid 19</h2>
                         <p>
-                            Si te preguntas donde hacer pruebas para la covid a
-                            buen precio, estas en el lugar indicado.
+                            Solicita la toma de pruebas COVID-19 de acuerdo a
+                            tus necesidades, para tomar las medidas necesarias,
+                            cuidarte y prevenir tu salud y la de tus seres
+                            queridos.
                             <br />
                             <br />
-                            Contamos con la prueba de antígenos y anticuerpos
-                            para para la detección del covid 19 al mejor precio,
-                            más vale prevenir.
+                            Contamos con la prueba de antígenos, anticuerpos y
+                            PCR para para la detección del covid 19 al mejor
+                            precio, más vale prevenir.
                         </p>
                     </div>
                     <div class="article__services--list">
@@ -494,37 +499,50 @@
                     </dl>
                 </div>
                 <div class="section__contant-us--form-container">
-                    <form action="">
+                    <form
+                        id="contatUs-form"
+                        action="https://formspree.io/f/mwkaoypj"
+                        method="POST"
+                    >
                         <label for="nombre">
                             <span>Escribe tu nombre</span>
                             <input
                                 type="text"
-                                name="nombre"
+                                name="Nombre"
                                 id="nombre"
                                 placeholder="Tu nombre"
-                            />
-                        </label>
-                        <label for="correo">
-                            <span>Escribe tu correo electronico</span>
-                            <input
-                                type="text"
-                                name="correo"
-                                id="correo"
-                                placeholder="Tu correo electronico"
+                                required
                             />
                         </label>
                         <label for="telefono">
                             <span>Escribe tu numero de telefono</span>
                             <input
                                 type="text"
-                                name="telefono"
+                                name="Numero de telefono"
                                 id="telefono"
                                 placeholder="Tu numero de telefono"
+                                required
+                                minlength="10"
+                                maxlength="10"
                             />
                         </label>
+                        <label for="mensaje">
+                            <span>¿Qué necesitas? 😄</span>
+                            <textarea
+                                class="Form__textarea--mensaje"
+                                type="text"
+                                name="Mensaje"
+                                id="mensaje"
+                                placeholder="Cuéntanos que necesitas"
+                                required
+                            ></textarea>
+                        </label>
+                        <p class="Form__label--state" id="formLabelState">
+                            Gracias! Estaremos en contacto 😀
+                        </p>
                         <input
                             class="form-button"
-                            type="button"
+                            type="submit"
                             value="Enviar"
                         />
                     </form>

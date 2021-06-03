@@ -496,7 +496,7 @@ main .main__section--contact-us .section__contant-us--form-container {
     margin: 10px auto;
     font-size: 13pt;
     font-family: "roboto-bold", sans-serif;
-    color: #7a7a7a;
+    color: #2b2b2b;
 }
 
 .section__contant-us--form-container form label span {
@@ -505,13 +505,23 @@ main .main__section--contact-us .section__contant-us--form-container {
     margin-bottom: 5px;
 }
 
-.section__contant-us--form-container form label input {
-    border: 1px solid #adadad;
+.section__contant-us--form-container form label input,
+.section__contant-us--form-container form .Form__textarea--mensaje {
+    border: 1px solid #474747;
     border-radius: 4px;
     width: 100%;
     height: 40px;
     padding-left: 10px;
     font-size: 13pt;
+}
+
+form .Form__label--state {
+    text-align: center;
+    font-size: 16pt;
+    font-family: "roboto-bold", sans-serif;
+    color: #23ce6b;
+    margin-bottom: 0.5em;
+    display: none;
 }
 
 .form-button {
@@ -526,6 +536,13 @@ main .main__section--contact-us .section__contant-us--form-container {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
     color: white;
     border-radius: 4px;
+}
+
+.section__contant-us--form-container form .Form__textarea--mensaje {
+    width: 100%;
+    padding: 10px 0.5em;
+    resize: none;
+    height: 80px;
 }
 
 /* FOOTER */

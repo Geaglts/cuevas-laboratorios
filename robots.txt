@@ -1,6 +1,10 @@
 User-Agent: *
 Disallow: 
-Disallow: /styles
-Disallow: /assets
+Disallow: /styles/*
+Disallow: /styles$
+Disallow: /assets/*
+Disallow: /assets$
+Disallow: /js/*
+Disallow: /js$
 
 Sitemap: https://laboratorioscuevas.com.mx/sitemap.xml

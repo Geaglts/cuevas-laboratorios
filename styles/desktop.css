@@ -20,12 +20,10 @@
         background: rgba(106, 127, 219, 0.2);
     }
 
-    input[type="button"] {
-        transition: all 0.3s;
-        cursor: pointer;
-    }
-
+    input[type="button"],
+    input[type="submit"],
     button {
+        transition: all 0.3s;
         cursor: pointer;
     }
 
@@ -325,7 +323,7 @@
 
     main .main__section--contact-us .section__contant-us--info-container {
         padding-left: 50px;
-        height: 400px;
+        height: 470px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -358,7 +356,8 @@
         font-size: 16pt;
     }
 
-    .section__contant-us--form-container form label input {
+    .section__contant-us--form-container form label input,
+    .section__contant-us--form-container form .Form__textarea--mensaje {
         height: 50px;
         font-size: 14pt;
         color: #222;
@@ -366,10 +365,14 @@
         box-shadow: 2px 2px #222;
     }
 
+    .section__contant-us--form-container form .Form__textarea--mensaje {
+        height: 100px;
+    }
+
     .form-button {
         height: 40px;
         width: 120px;
-        margin-top: 1.5em;
+        margin-top: 0.7em;
     }
 
     .form-button:hover {
