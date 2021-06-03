@@ -1,0 +1,13 @@
+Order deny,allow
+Deny from all
+<Files ~ “.(xml|css|js|jpeg|png|gif|pdf|zip|rar)$”>
+Allow from all
+</Files>
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://www.laboratorioscuevas.com.mx[NC,OR]
+RewriteRule ^(.*)$ https://laboratorioscuevas.com.mx/$1 [L,R=301,NC]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://laboratorioscuevas.com.mx[NC,OR]
+RewriteRule ^(.*)$ https://laboratorioscuevas.com.mx/$1 [L,R=301,NC]
