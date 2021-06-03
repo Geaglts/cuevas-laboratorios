@@ -86,7 +86,7 @@ header nav ul li a {
     font-family: "roboto-bold", sans-serif;
 }
 
-.Section__readcrumb--container .breadcrumb {
+.Section__readcrumb--container {
     display: none;
 }
 

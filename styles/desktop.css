@@ -71,8 +71,11 @@
         background-color: rgba(0, 0, 0, 0.16);
     }
 
-    .Section__readcrumb--container .breadcrumb {
+    .Section__readcrumb--container {
         display: block;
+    }
+
+    .Section__readcrumb--container .breadcrumb {
         padding: 15px 0;
     }
 
