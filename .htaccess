@@ -4,8 +4,8 @@ Deny from all
 </Files>
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^https://www.laboratorioscuevas.com.mx[NC,OR]
-RewriteRule ^(.*)$ https://laboratorioscuevas.com.mx/$1 [L,R=301,NC]
+RewriteCond %{HTTP_HOST} ^https://laboratorioscuevas.com.mx[NC,OR]
+RewriteRule ^(.*)$ https://www.laboratorioscuevas.com.mx/$1 [L,R=301,NC]
 
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^https://laboratorioscuevas.com.mx[NC,OR]
