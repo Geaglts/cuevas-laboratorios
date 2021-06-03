@@ -1,4 +1,3 @@
-
 <Files .htaccess>
 Order deny,allow
 Deny from all
