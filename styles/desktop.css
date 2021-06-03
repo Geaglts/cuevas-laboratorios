@@ -399,9 +399,40 @@
     }
 }
 
+@media (max-width: 1366px) {
+    main .main__services--container .services__article--container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .main__services--container
+        .services__article--container
+        .services__article--container
+        h2 {
+        font-size: 32pt;
+    }
+}
+
 @media (min-width: 1360px) {
     main .main__promotions--container article {
         max-height: 530px;
+    }
+
+    .main__services--container .services__article--container:nth-child(even) {
+        background-color: #387dff;
+        color: white;
+        padding: 50px;
+        border-radius: 5px;
+    }
+
+    .main__services--container
+        .services__article--container:nth-child(even)
+        h2 {
+        color: inherit;
+    }
+
+    .main__services--container .services__article--container:nth-child(even) p {
+        color: inherit;
     }
 }
 
