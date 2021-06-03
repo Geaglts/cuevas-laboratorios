@@ -71,10 +71,47 @@
         background-color: rgba(0, 0, 0, 0.16);
     }
 
+    .Section__readcrumb--container .breadcrumb {
+        display: block;
+        padding: 15px 0;
+    }
+
+    /* Style the list */
+    .Section__readcrumb--container > .breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #eee;
+    }
+
+    /* Display list items side by side */
+    .Section__readcrumb--container > .breadcrumb li {
+        display: inline;
+        font-size: 18px;
+    }
+
+    /* Add a slash symbol (/) before/behind each list item */
+    .Section__readcrumb--container > .breadcrumb li + li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+
+    /* Add a color to all links inside the list */
+    .Section__readcrumb--container > .breadcrumb li a {
+        color: #0275d8;
+        text-decoration: none;
+    }
+
+    /* Add a color on mouse-over */
+    .Section__readcrumb--container > .breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
+
     /* MAIN  */
     /* TITLE */
     main .main__title--container {
-        height: calc(100vh - 60px);
+        height: calc(100vh - (60px + 42px));
     }
 
     main .main__title--container h1 {

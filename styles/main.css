@@ -86,6 +86,10 @@ header nav ul li a {
     font-family: "roboto-bold", sans-serif;
 }
 
+.Section__readcrumb--container .breadcrumb {
+    display: none;
+}
+
 /* MAIN */
 
 /* TITLE SECTION */
