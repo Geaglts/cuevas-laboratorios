@@ -69,6 +69,7 @@
         background-color: rgba(0, 0, 0, 0.16);
     }
 
+    /* Breadcrumb */
     .Section__readcrumb--container {
         display: block;
     }
@@ -483,6 +484,17 @@
         right: 10px;
         bottom: 37px;
         background-color: white;
+    }
+
+    /* BLOG */
+    .Blog__main--container {
+        max-width: 750px;
+    }
+
+    .Blog__main--container .Blog__main--posts-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
     }
 }
 

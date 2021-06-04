@@ -55,6 +55,18 @@ hr {
     border-bottom: 2px solid #387dff;
 }
 
+/* Standar buttons */
+.button {
+    background-color: #387dff;
+    border: none;
+    color: white;
+    padding: 0.4em 0.8em;
+    font-size: 14pt;
+    font-family: "Roboto-Bold", sans-serif;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
 /* GOOGLE MAPS BUTTON */
 .goto-google-maps {
     padding: 0.6em 0.8em;
@@ -714,7 +726,7 @@ footer .footer__section--bottom {
 
 .Blog__main--posts-container .Blog__posts--post {
     height: 460px;
-    max-width: 360px;
+    max-width: 330px;
     border-radius: 4px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.16);
     overflow: hidden;
@@ -742,14 +754,7 @@ footer .footer__section--bottom {
     margin: 10px 0;
 }
 
-.Blog__posts--post .Blog__post--intro > button {
-    background-color: #387dff;
-    border: none;
-    color: white;
-    padding: 0.4em 0.6em;
-    font-size: 14pt;
-    font-family: "Roboto-Bold", sans-serif;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
+.Blog__posts--post .Blog__post--intro > a {
     position: absolute;
     bottom: 15px;
     right: 15px;
