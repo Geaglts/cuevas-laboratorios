@@ -438,6 +438,52 @@
         font-size: 26pt;
         color: #387dff;
     }
+
+    /* ABOUT US PAGE */
+    .AboutUs__main--container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .AboutUs__banner--container > .banner__img {
+        height: 400px;
+    }
+
+    .AboutUs__main--container .AboutUs__contact--container {
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+    .AboutUs__contact--container .contact__div--info .div__h1--title {
+        text-align: center;
+    }
+
+    .AboutUs__contact--container .contact__div--ubication {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        position: relative;
+    }
+
+    .contact__div--ubication div:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contact__div--ubication div:first-child hr {
+        margin: 0;
+    }
+
+    .contact__div--ubication .div__div--img {
+        margin-left: 1em;
+    }
+
+    .contact__div--ubication > .goto-google-maps {
+        position: absolute;
+        right: 10px;
+        bottom: 37px;
+        background-color: white;
+    }
 }
 
 @media (min-width: 1125px) {
