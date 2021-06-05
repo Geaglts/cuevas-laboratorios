@@ -502,6 +502,44 @@
     .note {
         text-align: center;
     }
+
+    .content__section--info .note .button {
+        display: block;
+        max-width: 255px;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+
+    .content__section--info .Post__content--container {
+        display: flex;
+    }
+
+    .content__section--info .Post__content--container .first__section {
+        order: 2;
+        border-left: 2px solid #387dff;
+        margin-left: 1em;
+        padding: 0 2em;
+    }
+
+    .Post__content--container .first__section .list {
+        padding: 0;
+        text-align: center;
+    }
+
+    .Post__content--container .first__section .list li {
+        list-style: none;
+        border: 2px solid #01447e;
+        padding: 0.4em;
+        color: #01447e;
+        font-size: 16pt;
+        font-family: "roboto-bold", sans-serif;
+        margin-bottom: 0.5em;
+        border-radius: 0.4em;
+    }
+
+    .content__section--info .Post__content--container .second__section {
+        order: 1;
+    }
 }
 
 @media (min-width: 1125px) {
