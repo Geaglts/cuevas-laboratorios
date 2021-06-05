@@ -871,16 +871,19 @@ footer .footer__section--bottom {
     margin: 1em 0;
 }
 
-.main__post--content .content__section--info .info__subtitle {
-    font-size: 24pt;
-}
-
 .content__section--info .info__cards--container .info__card {
     padding: 1.1em;
     background-color: #0762ff;
     color: white;
     border-radius: 0.3em;
     text-align: center;
+    margin-bottom: 1em;
+}
+.main__post--content .content__section--info .info__subtitle {
+    font-size: 24pt;
+}
+
+.main__post--content .content__section--info .bottom__note {
     margin-bottom: 1em;
 }
 
