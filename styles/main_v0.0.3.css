@@ -223,7 +223,7 @@ main .main__promotions--container article {
     text-align: center;
 }
 
-.main__promotions--container article div h4 {
+.main__promotions--container article div h3 {
     font-size: 18pt;
     margin-bottom: 10px;
 }
