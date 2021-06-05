@@ -819,3 +819,83 @@ footer .footer__section--bottom {
     margin: 0 auto;
     margin-top: 10px;
 }
+
+/* POST */
+
+/* General elements */
+.note {
+    padding: 1em;
+    border-radius: 0.2em;
+    background-color: #1d3157;
+    color: white;
+}
+
+/* .dask-price {
+    
+} */
+
+.light-price {
+    background: white;
+    padding: 0.2em 0.6em;
+    color: #1d3157;
+    display: block;
+    font-family: "roboto-bold";
+    font-size: 22pt;
+    border: 2px solid #1d3157;
+    border-radius: 0.2em;
+    display: inline-block;
+}
+
+.Post__main--container > img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.Post__main--container .main__post--content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Post__main--container .main__post--content h1 {
+    font-size: 28pt;
+    padding: 0.6em 0;
+}
+
+.Post__main--container .main__post--content p {
+    font-size: 14pt;
+}
+
+.main__post--content .content__section--info .info__cards--container {
+    margin: 1em 0;
+}
+
+.content__section--info .info__cards--container .info__card {
+    padding: 1.1em;
+    background-color: #0762ff;
+    color: white;
+    border-radius: 0.3em;
+    text-align: center;
+}
+
+.info__cards--container .info__card h2 {
+    font-size: 26pt;
+}
+
+.info__cards--container .info__card h2,
+.info__cards--container .info__card h2 {
+    text-align: center;
+}
+
+.info__cards--container .info__card .card__p {
+    margin: 0.8em 0;
+}
+
+.info__cards--container .info__card .warning {
+    font-size: 11pt;
+    margin-top: 10px;
+}
+
+.info__cards--container .info__card > .light-price {
+    margin-top: 0.6em;
+}
