@@ -301,7 +301,7 @@ main .main__services--container {
 }
 
 .article__services--list .article__services--card p:nth-child(3) {
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 .article__services--list .article__services--card p:nth-child(4) {
@@ -871,25 +871,33 @@ footer .footer__section--bottom {
     margin: 1em 0;
 }
 
+.main__post--content .content__section--info .info__subtitle {
+    font-size: 24pt;
+}
+
 .content__section--info .info__cards--container .info__card {
     padding: 1.1em;
     background-color: #0762ff;
     color: white;
     border-radius: 0.3em;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .info__cards--container .info__card h2 {
-    font-size: 26pt;
+    font-size: 20pt;
 }
 
-.info__cards--container .info__card h2,
-.info__cards--container .info__card h2 {
-    text-align: center;
+.info__cards--container .info__card h3 {
+    font-size: 14pt;
 }
 
 .info__cards--container .info__card .card__p {
     margin: 0.8em 0;
+}
+
+.info__cards--container .info__card .result_time {
+    font-family: "roboto-bold", sans-serif;
 }
 
 .info__cards--container .info__card .warning {
