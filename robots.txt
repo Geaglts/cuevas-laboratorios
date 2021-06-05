@@ -6,5 +6,8 @@ Disallow: /assets/*
 Disallow: /assets$
 Disallow: /js/*
 Disallow: /js$
+Disallow: /?cat=4
+Disallow: /?cat=1
+Disallow: /?author=1
 
 Sitemap: https://laboratorioscuevas.com.mx/sitemap.xml
