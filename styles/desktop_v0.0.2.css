@@ -32,7 +32,7 @@
     }
 
     a:hover {
-        transform: translateY(-4px);
+        transform: translateY(-5px);
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
     }
 
@@ -140,7 +140,7 @@
         padding: 0 20px;
         justify-content: flex-start;
         position: relative;
-        max-height: 700px;
+        max-height: 740px;
     }
 
     .main__promotions--container article img {
@@ -166,7 +166,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 1336px;
-        height: 450px;
+        min-height: 530px;
+        height: auto;
         margin: 4em auto;
     }
 
@@ -324,7 +325,7 @@
 
     main .main__section--contact-us .section__contant-us--info-container {
         padding-left: 50px;
-        height: 470px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;

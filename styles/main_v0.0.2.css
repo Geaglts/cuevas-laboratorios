@@ -65,6 +65,7 @@ hr {
     font-family: "Roboto-Bold", sans-serif;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
     border-radius: 4px;
+    display: inline-block;
 }
 
 /* GOOGLE MAPS BUTTON */
