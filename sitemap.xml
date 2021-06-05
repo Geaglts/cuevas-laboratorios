@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://laboratorioscuevas.com.mx/</loc>
-        <lastmod>2021-06-03T16:07:06+00:00</lastmod>
+        <loc>https://laboratorioscuevas.com.mx/</loc>
+        <lastmod>2021-06-05T22:49:06+00:00</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://laboratorioscuevas.com.mx/pages/blog</loc>
-        <lastmod>2021-06-03T14:49:41+00:00</lastmod>
+        <loc>https://laboratorioscuevas.com.mx/pages/blog</loc>
+        <lastmod>2021-06-05T22:57:30+00:00</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://laboratorioscuevas.com.mx/pages/posts/pruebas-para-covid</loc>
-        <lastmod>2021-06-05T00:27:30+00:00</lastmod>
+        <lastmod>2021-06-05T22:59:34+00:00</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
+        <loc>https://laboratorioscuevas.com.mx/pages/posts/vida-saludable</loc>
+        <lastmod>2021-06-05T22:59:34+00:00</lastmod>
+        <priority>0.90</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
         <loc>https://laboratorioscuevas.com.mx/pages/acerca-de-nosotros</loc>
-        <lastmod>2021-06-04T20:51:42+00:00</lastmod>
+        <lastmod>2021-06-05T22:49:06+00:00</lastmod>
         <priority>0.90</priority>
     </url>
     <url>
-        <loc>http://laboratorioscuevas.com.mx/pages/politica-privacidad</loc>
-        <lastmod>2021-06-03T14:49:41+00:00</lastmod>
+        <loc>https://laboratorioscuevas.com.mx/pages/politica-privacidad</loc>
+        <lastmod>2021-06-05T22:49:06+00:00</lastmod>
         <priority>0.80</priority>
     </url>
 </urlset>
+
