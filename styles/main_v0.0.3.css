@@ -831,10 +831,6 @@ footer .footer__section--bottom {
     color: white;
 }
 
-/* .dask-price {
-    
-} */
-
 .light-price {
     background: white;
     padding: 0.2em 0.6em;
@@ -910,4 +906,45 @@ footer .footer__section--bottom {
 
 .info__cards--container .info__card > .light-price {
     margin-top: 0.6em;
+}
+
+/* TEXT STYLES */
+.content__section--info .note .button {
+    margin-top: 0.5em;
+}
+
+.theme {
+    background-color: #0762ff;
+    color: white;
+    font-family: "roboto-bold";
+    text-align: center;
+    padding: 0.6em;
+    border-radius: 0.2em;
+}
+
+.list {
+    font-size: 14pt;
+    padding-left: 1.5em;
+}
+
+.list li {
+    list-style: disc;
+    margin: 0.1em 0;
+}
+
+.content__section--info .Post__content--container {
+    margin-top: 1em;
+}
+.content__section--info .Post__content--container section {
+    margin-bottom: 1rem;
+}
+
+.content__section--info .Post__content--container h2 {
+    font-size: 24pt;
+    margin-bottom: 0.8rem;
+}
+
+.content__section--info .Post__content--container p {
+    margin-bottom: 0.7em;
+    font-size: 16pt;
 }
